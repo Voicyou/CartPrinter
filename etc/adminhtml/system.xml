@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="voicyou" translate="label" sortOrder="10">
+            <label>Voicyou</label>
+        </tab>
+        <section id="cartprinter" translate="label" sortOrder="130" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>Cart Printer</label>
+            <tab>voicyou</tab>
+            <resource>Voicyou_CartPrinter::configuration</resource>
+            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>General Configuration</label>
+                <field id="header_text" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Header Text</label>
+                    <comment>This text will display on header of your cart PDF.</comment>
+                </field>                
+            </group>
+        </section>
+    </system>
+</config>
