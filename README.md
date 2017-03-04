@@ -4,3 +4,4 @@ This is a Magento 2 Module to print the details of the products inside the cart.
 To use this moudule you need to create a an anchor tag inside your magento 2 page whereever you wish to use this module and give it the link redirecting the link to the modules controller named `printer` present inside the `cart` folder, ofcourse you will need to use module frontname in the url formation. 
 
 
+Please pull a separate module from the repository MenuOptions with URL: https://github.com/Voicyou/MenuOptions and install this MenuOptions module to see this module in your magento 2 admin menu.
