@@ -1,6 +1,6 @@
 # Voicyou Cart Printer
 
-![alt tag](http://voicyou.in/images/printcard/logo.png)
+![alt tag](http://voicyou.in/images/printcart/logo.png)
 
 This is a Magento 2 Module to print the details of the products inside the cart. This module prints the details of the products excluding the extra charges like shipping cost, tax etc. 
 
