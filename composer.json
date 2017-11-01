@@ -2,10 +2,10 @@
   "name": "voicyou/cartprinter",
   "description": "This is a Magento 2 Module for printing all your products that are present inside your cart into a pdf file.",
   "require": {
-    "php": "~5.5.0|~5.6.0|~7.0.0"
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "voicyou/menuoptions":"~1.0.0"
   },
   "type": "magento2-module",
-  "version": "1.6.0",
   "license": [
     "OSL-3.0",
     "AFL-3.0"
